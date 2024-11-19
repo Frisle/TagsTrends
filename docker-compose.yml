@@ -1,0 +1,9 @@
+services:
+  trends-analytics:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 8443:1701
+
+
